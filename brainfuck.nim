@@ -9,7 +9,7 @@ var
     tapePos: int = 0
 
 proc run(skip = false): bool =
-    echo "codePos: ", codePos, " tapePos: ", tapePos
+    # echo "codePos: ", codePos, " tapePos: ", tapePos
     while tapePos >= 0 and codePos < code.len:
 
         if tapePos >= tape.len:
